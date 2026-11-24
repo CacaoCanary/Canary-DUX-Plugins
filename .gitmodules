@@ -1,9 +1,9 @@
 [submodule "DockerDashboard"]
 	path = DockerDashboard
-	url = https://github.com/HotcocoaCanary/Canary-DMS-DockerDashboard.git
+	url = https://github.com/CacaoCanary/Canary-DMS-DockerDashboard.git
 [submodule "ClaudeUsageStats"]
 	path = ClaudeUsageStats
-	url = https://github.com/HotcocoaCanary/Canary-DMS-ClaudeUsageStats.git
+	url = https://github.com/CacaoCanary/Canary-DMS-ClaudeUsageStats.git
 [submodule "TailscaleDashboard"]
 	path = TailscaleDashboard
-	url = https://github.com/HotcocoaCanary/Canary-DMS-TailscaleDashboard.git
+	url = https://github.com/CacaoCanary/Canary-DMS-TailscaleDashboard.git

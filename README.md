@@ -4,16 +4,16 @@ Plugins for [Dux Shell](https://github.com/duxlabs-dev/dux-shell). Each plugin h
 
 | Plugin | ID | Repository | What it does |
 |---|---|---|---|
-| [Docker Dashboard](DockerDashboard/) | `dockerDashboard` | [Canary-DMS-DockerDashboard](https://github.com/HotcocoaCanary/Canary-DMS-DockerDashboard) | Containers, Compose projects, images, networks and volumes in a bar popout, with start / stop / restart / recreate / delete and live logs |
-| [Claude Usage and Stats](ClaudeUsageStats/) | `claudeUsageStats` | [Canary-DMS-ClaudeUsageStats](https://github.com/HotcocoaCanary/Canary-DMS-ClaudeUsageStats) | Claude Code `/usage` limits and `/stats` charts built from local transcripts |
-| [Tailscale Dashboard](TailscaleDashboard/) | `tailscaleDashboard` | [Canary-DMS-TailscaleDashboard](https://github.com/HotcocoaCanary/Canary-DMS-TailscaleDashboard) | Read-only Tailscale status: this device, the devices in the tailnet, traffic and relay latencies as charts, plus a link to the admin console |
+| [Docker Dashboard](DockerDashboard/) | `dockerDashboard` | [Canary-DMS-DockerDashboard](https://github.com/CacaoCanary/Canary-DMS-DockerDashboard) | Containers, Compose projects, images, networks and volumes in a bar popout, with start / stop / restart / recreate / delete and live logs |
+| [Claude Usage and Stats](ClaudeUsageStats/) | `claudeUsageStats` | [Canary-DMS-ClaudeUsageStats](https://github.com/CacaoCanary/Canary-DMS-ClaudeUsageStats) | Claude Code `/usage` limits and `/stats` charts built from local transcripts |
+| [Tailscale Dashboard](TailscaleDashboard/) | `tailscaleDashboard` | [Canary-DMS-TailscaleDashboard](https://github.com/CacaoCanary/Canary-DMS-TailscaleDashboard) | Read-only Tailscale status: this device, the devices in the tailnet, traffic and relay latencies as charts, plus a link to the admin console |
 
 ## Installation
 
 Clone with the submodules and link the plugins you want into the Dux Shell plugins folder:
 
 ```bash
-git clone --recurse-submodules https://github.com/HotcocoaCanary/Canary-DUX-Plugins.git
+git clone --recurse-submodules https://github.com/CacaoCanary/Canary-DUX-Plugins.git
 ln -s "$PWD/Canary-DUX-Plugins/DockerDashboard" ~/.config/dms/plugins/dockerDashboard
 ln -s "$PWD/Canary-DUX-Plugins/ClaudeUsageStats" ~/.config/dms/plugins/claudeUsageStats
 ln -s "$PWD/Canary-DUX-Plugins/TailscaleDashboard" ~/.config/dms/plugins/tailscaleDashboard
